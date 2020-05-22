@@ -29,12 +29,12 @@ namespace isdekanat
 
         }
 
-        private void создатьToolStripMenuItem_Click(object sender, EventArgs e)
+     /*   private void создатьToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Form3 fr = new Form3();
             fr.Show();
             
-        }
+        }*/
 
         private void открытьToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -48,9 +48,5 @@ namespace isdekanat
             fr.Show();
         }
 
-        private void удалитьЗаписьToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
