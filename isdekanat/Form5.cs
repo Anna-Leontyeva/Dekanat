@@ -24,7 +24,7 @@ namespace isdekanat
 
             //записать в него
             File.AppendAllText(filename, textBox1.Text + "  " + textBox2.Text + "  " + textBox3.Text + "  " + textBox4.Text + "  " + textBox5.Text + "\n");
-            label7.Text = "студент " + textBox2.Text + " добавлен";
+            label7.Text = "Студент " + textBox2.Text + " добавлен";
             textBox1.Text = "";
             textBox2.Text = "";
             textBox3.Text = "";

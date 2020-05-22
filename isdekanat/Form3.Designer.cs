@@ -35,25 +35,28 @@
             // 
             // textBox0
             // 
-            this.textBox0.Location = new System.Drawing.Point(12, 12);
+            this.textBox0.Location = new System.Drawing.Point(85, 27);
+            this.textBox0.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox0.Name = "textBox0";
-            this.textBox0.Size = new System.Drawing.Size(136, 22);
+            this.textBox0.Size = new System.Drawing.Size(103, 20);
             this.textBox0.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 37);
+            this.label1.Location = new System.Drawing.Point(9, 30);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(80, 17);
+            this.label1.Size = new System.Drawing.Size(63, 13);
             this.label1.TabIndex = 1;
             this.label1.Text = "Факультет";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(178, 12);
+            this.button1.Location = new System.Drawing.Point(250, 27);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(56, 19);
             this.button1.TabIndex = 2;
             this.button1.Text = "OK";
             this.button1.UseVisualStyleBackColor = true;
@@ -61,12 +64,13 @@
             // 
             // Form3
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(307, 60);
+            this.ClientSize = new System.Drawing.Size(317, 86);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox0);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form3";
             this.Text = "Form3";
             this.ResumeLayout(false);
