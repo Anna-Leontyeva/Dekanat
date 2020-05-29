@@ -36,10 +36,11 @@
             // textBox0
             // 
             this.textBox0.Location = new System.Drawing.Point(85, 27);
-            this.textBox0.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox0.Margin = new System.Windows.Forms.Padding(2);
             this.textBox0.Name = "textBox0";
             this.textBox0.Size = new System.Drawing.Size(103, 20);
             this.textBox0.TabIndex = 0;
+            this.textBox0.TextChanged += new System.EventHandler(this.textBox0_TextChanged);
             // 
             // label1
             // 
@@ -54,7 +55,7 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(232, 27);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(74, 19);
             this.button1.TabIndex = 2;
@@ -70,7 +71,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox0);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form3";
             this.Text = "Form3";
             this.ResumeLayout(false);

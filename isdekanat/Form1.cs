@@ -48,5 +48,11 @@ namespace isdekanat
             fr.Show();
         }
 
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+            Form6 fr = new Form6();
+            fr.Show();
+           
+        }
     }
 }

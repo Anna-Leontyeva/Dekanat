@@ -26,5 +26,10 @@ namespace isdekanat
             this.Visible = false;
             Form3 fr = new Form3();
         }
+
+        private void textBox0_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
