@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using System.Security.Cryptography.X509Certificates;
 
 namespace isdekanat
 {
@@ -37,5 +38,17 @@ namespace isdekanat
             this.Visible = false;
             Form5 fr = new Form5();
         }
+       
+        public  void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            Random rnd = new Random();
+            int value = rnd.Next(100000, 999999);
+
+            string myString = value.ToString();
+            this.textBox1.Text = myString;
+
+        }
+
     }
+
 }

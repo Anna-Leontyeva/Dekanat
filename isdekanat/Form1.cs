@@ -13,6 +13,8 @@ namespace isdekanat
 {
     public partial class Form1 : Form
     {
+        
+
         public Form1()
         {
             InitializeComponent();
@@ -41,10 +43,11 @@ namespace isdekanat
             Form4 fr = new Form4();
             fr.Show();
         }
-
-        private void добавитьЗаписьToolStripMenuItem_Click(object sender, EventArgs e)
+        
+            public void добавитьЗаписьToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Form5 fr = new Form5();
+           
             fr.Show();
         }
 
