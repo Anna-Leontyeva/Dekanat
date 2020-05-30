@@ -67,7 +67,7 @@
             // открытьToolStripMenuItem
             // 
             this.открытьToolStripMenuItem.Name = "открытьToolStripMenuItem";
-            this.открытьToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.открытьToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
             this.открытьToolStripMenuItem.Text = "Открыть";
             this.открытьToolStripMenuItem.Click += new System.EventHandler(this.открытьToolStripMenuItem_Click);
             // 
@@ -83,14 +83,14 @@
             // добавитьЗаписьToolStripMenuItem
             // 
             this.добавитьЗаписьToolStripMenuItem.Name = "добавитьЗаписьToolStripMenuItem";
-            this.добавитьЗаписьToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.добавитьЗаписьToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.добавитьЗаписьToolStripMenuItem.Text = "Добавить запись";
             this.добавитьЗаписьToolStripMenuItem.Click += new System.EventHandler(this.добавитьЗаписьToolStripMenuItem_Click);
             // 
             // удалитьЗаписьToolStripMenuItem
             // 
             this.удалитьЗаписьToolStripMenuItem.Name = "удалитьЗаписьToolStripMenuItem";
-            this.удалитьЗаписьToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.удалитьЗаписьToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.удалитьЗаписьToolStripMenuItem.Text = "Удалить запись";
             // 
             // справкаToolStripMenuItem
@@ -105,7 +105,7 @@
             // просмотрСправкиToolStripMenuItem
             // 
             this.просмотрСправкиToolStripMenuItem.Name = "просмотрСправкиToolStripMenuItem";
-            this.просмотрСправкиToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.просмотрСправкиToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
             this.просмотрСправкиToolStripMenuItem.Text = "Просмотр справки";
             // 
             // toolStrip1
@@ -124,8 +124,8 @@
             this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
             this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(181, 22);
-            this.toolStripButton1.Text = "Просмотр списка факультетов";
+            this.toolStripButton1.Size = new System.Drawing.Size(166, 22);
+            this.toolStripButton1.Text = "Просмотр списка учащихся";
             this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
             // 
             // Form1

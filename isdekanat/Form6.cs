@@ -10,8 +10,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace isdekanat
+  
 {
-
     public partial class Form6 : Form
     {
         public Form6()
@@ -24,16 +24,15 @@ namespace isdekanat
             this.Visible = false;
             Form6 fr = new Form6();
         }
-
+        // @"C:\Users\user\source\repos\Dekanat\isdekanat\bin\Debug"
         private void button2_Click(object sender, EventArgs e)
         {
-            DirectoryInfo dir = new DirectoryInfo(@"C:\Users\user\source\repos\Dekanat\isdekanat\bin\Debug");
-            FileInfo[] files = dir.GetFiles("*.txt");
-            foreach (FileInfo fi in files)
-            {
-                string a = System.IO.Path.GetFileNameWithoutExtension(fi.Name);
-                listBox1.Items.Add(a);
-            }
+            string pathToFile = @"C: \Users\user\source\repos\Dekanat\isdekanat\bin\Debug\Фмиит.txt";
+            
+            string[] allLines = File.ReadAllLines(pathToFile, Encoding.UTF8);
+           
+            foreach (string line in allLines)
+                listBox1.Items.Add(line);
         }
     }
 }
